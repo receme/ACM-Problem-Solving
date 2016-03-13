@@ -1,0 +1,46 @@
+Manager of ACM-ICPC Thailand Contest Council is planning to buy lands in Phuket to build the office
+building for national programming skill camp and programming contest that will be held on Phuket
+regularly in the future. The land price in Phuket is becoming more expensive in every year. The price
+increases in the exponential growth curves by a factor of year. If the land i whose initial cost is Li
+bought in t years from now, its price will be 2x(Li)
+t
+. All land prices are different. ACM-ICPC can
+buy only one land per year. You have to help the manager to buy the lands at lowest price within the
+budget of 5,000,000 millions baht.
+For example, if we want to buy 3 lands with costs 7, 2 and 10 in 3 consecutive years, the total price
+will be calculated as follow.
+(2 × 7) + (2 × 2^2) + (2 × 10^3) = 2022 millions baht
+
+Input
+First line of the input contains an integer T (1 ≤ T ≤ 10), the number of test cases. Each test case
+contains integer Li which is the cost of land in million baht. There are less than 40 lands in each test
+case. The line contains ‘0’ (zero) indicates the end of each test case.
+
+
+Output
+For each test case, print out the minimum price for purchasing all lands. If the total price exceeds the
+budget (5,000,000 millions baht), print out ‘Too expensive’.
+
+
+Sample Input
+3
+7
+2
+10
+0
+20
+29
+31
+0
+42
+41
+40
+37
+20
+0
+
+
+Sample Output
+134
+17744
+Too expensive

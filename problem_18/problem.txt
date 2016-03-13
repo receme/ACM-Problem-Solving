@@ -1,0 +1,49 @@
+Brother Arif is a great problemsetter. He loves grid. Also, he loves light. That’s why the other
+problemsetters believe that asking him to throw a feast is always right. Unfortunately Brother Arif
+himself doesn’t think so. Instead of all the naggings and reasons going on around him, he stays in his
+chair with dreamy eyes and lovingly thinks about newer ways of placing lights inside a 2D grid. Now,
+it’s time to make your stand for the deprived problemsetters’ right and force Brother Arif to their pleas.
+Now, the problemsetters have all gathered inside a room. The floor of this room is shaped like a 2d
+Rectangular grid consisting of many cells. Any of the problemsetters can stand on a cell. A cell has
+enough place for only one people and everyone must occupy exactly one cell at a time. Brother Arif,
+standing on one of these cells, can move to one of the four adjacent cells just once or he may not move
+at all. He may not leave the grid, however. The other problemsetters are standing on other cells. With
+the help of their new telecatching device, they can capture anyone standing at the same row or column
+irrespective to his distance. So, now you are given the positions of the problemsetters and are asked to
+figure out if Brother Arif can escape from getting captured (and thus throwing a huge party.)
+
+
+Input
+The input file has multiple test cases. Each test case begins with 3 integers, R (1 ≤ R ≤ 10000), C
+(1 ≤ C ≤ 10000) & N (1 ≤ Ne2000). R & C are the number of rows & columns in the grid while N
+denotes the number of problemsetters present on the room. N + 1 lines follow the first line. Each of
+the next N lines has 2 integers, r (0 ≤ r < R) & c (0 ≤ c < C), position of a problemsetter. For your
+reference, the upper left corner of the cell has (0, 0) while the lower left one has (R−1, 0) and the lower
+right one has (R − 1, C − 1) co-ordinate. The last line gives the co-ordinate of Brother Arif in the same
+format. The last test case will be followed by a case with R = C = N = 0. This case should not be
+processed.
+
+
+Output
+For each test case, print a line. This line starts like, ‘Case X: ’, where, X is the case number. After
+that print a string based on Brother Arif’s destiny. If Brother Arif can find a cell where none else can
+catch him, print ‘Escaped again! More 2D grid problems!’. If someone can capture him no matter
+in which cell he goes, print ‘Party time! Let's find a restaurant!’
+
+
+Sample Input
+5 5 2
+0 1
+4 2
+1 2
+5 5 3
+0 1
+4 2
+4 3
+1 2
+0 0 0
+
+
+Sample Output
+Case 1: Escaped again! More 2D grid problems!
+Case 2: Party time! Let's find a restaurant!

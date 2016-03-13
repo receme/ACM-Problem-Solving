@@ -1,0 +1,41 @@
+Michael graduated of ITESO this year and finally has a job. He’s making a lot of money, but somehow
+never seems to have enough. Michael has decided that he needs to grab hold of his financial portfolio
+and solve his financing problems. The first step is to figure out what’s been going on with his money.
+Michael has his bank account statements and wants to see how much money he has. Help Michael
+by writing a program to take his closing balance from each of the past twelve months and calculate his
+average account balance.
+
+
+Input
+The first line of input contains a single integer N, (1 ≤ N ≤ 100) which is the number of datasets that
+follow.
+Each dataset consists of twelve lines. Each line will contain the closing balance of his bank account
+for a particular month. Each number will be positive and displayed to the penny. No dollar sign will
+be included.
+
+
+Output
+For each dataset, you should generate one line of output with the following values: The dataset number
+as a decimal integer (start counting at one), a space, a character ‘$’, and a single number, the average
+(mean) of the closing balances for the twelve months. It will be rounded to the nearest penny.
+Note: Used comma (,) to separate the thousands.
+
+
+Sample Input
+1
+100.00
+489.12
+12454.12
+1234.10
+823.05
+109.20
+5.27
+1542.25
+839.18
+83.99
+1295.01
+1.75
+
+
+Sample Output
+1 $1,581.42

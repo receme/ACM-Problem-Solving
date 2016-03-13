@@ -1,0 +1,42 @@
+You are in a car and going at the speed of u m/s. Your acceleration a is constant. After a particular
+time t, your speed is v m/s and your displacement is s. Now you are given some (not all of them) values
+for the given variables. And you have to find the missing parameters.
+
+Input
+The input file may contain multiple test cases. Each test case can be one of the
+1 u v t
+2 u v a
+3 u a s
+4 v a s
+Input will be terminated by a single ‘0’.
+
+
+Output
+For each case of input you have to print one line containing the case number and
+If 1 u v t are given then print s and a
+If 2 u v a are given then print s and t
+If 3 u a s are given then print v and t
+If 4 v a s are given then print u and t
+
+Check the samples for more details. You can assume that the given cases will not evaluate to an
+invalid situation. Use double for all calculations and output all floating point numbers to three decimal
+places.
+
+
+
+Sample Input
+1 10 5 2.0
+1 5 10.0 2
+2 10 11 2
+3 5 1 6
+4 5.0 -1 6
+0
+
+
+Sample Output
+Case 1: 15.000 -2.500
+Case 2: 15.000 2.500
+Case 3: 5.250 0.500
+Case 4: 6.083 1.083
+Case 5: 6.083 1.083
+
