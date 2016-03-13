@@ -1,0 +1,27 @@
+Your younger brother has just finished his homework for the part “additions and subtractions for
+integers not greater than one hundred” and asks you to check the answers. Each question (together
+with the answer computed by your younger brother) is formatted either as a+b = c or a−b = c, where a
+and b are numbers prepared by the teacher (they are guaranteed to be non-negative integers not greater
+than 100), c is the answer computed by your younger brother and is either a non-negative integer not
+greater than 200, or a single character ‘?’ (that means, he is unable to compute the answer).
+
+
+Input
+There will be at most 100 lines in the input. Each line contains a question with your younger brother’s
+answer, formatted as stated above. There will be no space characters in each line (excluding the newline
+character). Numbers will never have leading zeros.
+
+
+Output
+Print a single integer in a line, the number of correct answers.
+
+
+Sample Input
+1+2=3
+3-1=5
+6+7=?
+99-0=99
+
+
+Sample Output
+2

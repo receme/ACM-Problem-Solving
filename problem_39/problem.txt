@@ -1,0 +1,29 @@
+If three or more consecutive primes are uni-distance they are called Determinate Primes. Your task is
+to print all the Determinate Prime sets between two integers (inclusive).
+
+
+Input
+The input is consist of several test cases. Each test case consists of two non negative integers x and y.
+None of the input will be grater than 32000. Input will be terminated with two zeroes.
+
+
+Output
+For each test case you have to print all the Determinate Primes between x and y. Each set must be in
+a different line. For clarity check out the sample input and output.
+Note: No subset of a series is allowed. For example, a series of five uni-distant primes having even
+four of them in the interval is not allowed, all the five primes should be in the interval.
+The first two lines and the third line of the sample output are the outputs for the first and second
+sample inputs respectively.
+
+
+Sample Input
+1 100
+2 8
+0 0
+
+
+
+Sample Output
+3 5 7
+47 53 59
+3 5 7
